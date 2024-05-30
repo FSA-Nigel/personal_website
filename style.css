@@ -65,19 +65,51 @@ a {
     position: absolute;
     top: 33%;
     left: 20%;
+}
 
+.pfp {
+    position: fixed; 
+    top: 33%; 
+    right: 20%; 
+    width: 15%;
+    height: auto; 
+    box-shadow: black;
+    margin: auto;
     
-
-}
-.hero{
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
-  padding:30px 60px
 }
 
-.profile-image{
-  width:80%;
-  height:80%;
-  object-fit:cover
+.pfp img {
+    width: 100%; 
+    height: auto; 
+}
+
+.contact-form{
+    position: fixed;
+    top: 20%;
+    padding: 60px;
+}
+.bio {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 75%;
+    left: 10%;
+    top: 20%;
+
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+.project {
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
 }
