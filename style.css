@@ -4,7 +4,7 @@
   }
 
 :root {
-  --primary-color: #A87FFB;
+  --primary-color: #a77ef8;
   --secondary-color: #25A6E9;
   --tertiary-color: #FFC26E;
   --text-color: #fff;
@@ -19,7 +19,11 @@ body {
   padding: 30px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+    color: var(--tertiary-color);
+}
+
+h1, h2 {
   font-weight: bold;
 }
 
@@ -29,71 +33,47 @@ a {
   font-size: 16px;
 }
 
-a:hover {
-  text-decoration: none;
-  color:var(--primary-color);
-}
 
 .navbar{
   display:flex;
   justify-content: space-between;
   align-items: center;
   padding: 0px 60px;
+  margin-right: 20px;
 }
 
 .navbar-left{
-  font-size: 20px;
-  color:var(--primary-color);
+  font-size: 2rem;
+  font-weight: 700;
+  position: relative;
+  
 }
+
+.navbar-right{
+    font-size: 2rem;  
+  }
 
 #navlink{
-  margin-right:20px
+    margin-right:20px
 }
 
+
+.index-description{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    position: absolute;
+    top: 33%;
+    left: 20%;
+
+    
+
+}
 .hero{
   display:flex;
   justify-content: space-between;
   align-items: center;
   padding:30px 60px
-}
-
-.hero-left{
-  flex:1
-}
-
-.hero-left h1{
-  font-size:48px;
-  margin-bottom:10px
-}
-
-.hero-left h2{
-  font-size:32px;
-  margin-bottom:20px;
-  color:var(--primary-color)
-}
-
-.hero-left p{
-  font-size:16px;
-  margin-bottom:40px;
-  font-weight: 300;
-  max-width: 75%;
-  color:#BFC7D2
-}
-
-#resume-btn{
-  background-color: var(--background-color);
-  padding:20px 40px;
-  border:2px solid var(--primary-color);
-  border-radius: 10px;
-  font-weight: bold;
-  color:#e6ecf4;
-  font-size:16px
-}
-
-.hero-right{
-  flex:1;
-  display:flex;
-  justify-content: center;
 }
 
 .profile-image{
